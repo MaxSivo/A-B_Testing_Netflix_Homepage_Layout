@@ -23,6 +23,14 @@ Analysis: The OLS model showed that Tile Size was not significant, while the Pre
 
 Conclusion: Tile Size is insignificant. TT previews should minimize browse times. Future focus will be on investigating changes in Preview Length and Match Score.
 
+![Preview Length](images/image1.png)
+![Preview Type](images/image2.png)
+![Match Score](images/image3.png)
+![Tile Size](images/image4.png)
+![Preview Length, Match Score Interaction](images/image5.png)
+![OLS Regression Results](images/image6.png)
+
+
 ### CCD Trial-I
 Objective: Narrow down the search area and find the slope leading to the optimum.
 
