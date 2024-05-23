@@ -4,6 +4,8 @@
 
 The aim of this project was to optimize Netflix homepage browsing time by experimenting with four key factors: Tile Size, Match Score, Preview Length, and Preview Type. Through a series of multivariate experiments, we identified the optimal configuration: [0.2, 75, 75, TT] for [Tile.Size, Match.Score, Prev.Length, Prev.Type]. These insights provide Netflix with valuable information on enhancing user experience and minimizing average browsing time.
 
+![Experimental Factors](images/image_1.png)
+
 ## Introduction
 
 Inspired by Netflix's data-driven approach, this project addresses the challenge of minimizing browsing time on the homepage. Decision paralysis due to abundant choices often leads to increased browsing time and decreased content consumption. We explored four factors: tile size (0.1-0.5), match score (0-100), preview length (30-120 seconds), and preview type (actual content (AC) or teaser/trailer (TT)).
