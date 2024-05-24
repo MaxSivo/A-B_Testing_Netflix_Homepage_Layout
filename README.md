@@ -23,12 +23,20 @@ Analysis: The OLS model showed that Tile Size was not significant, while the Pre
 
 Conclusion: Tile Size is insignificant. TT previews should minimize browse times. Future focus will be on investigating changes in Preview Length and Match Score.
 
-<img src="images/image1.png" alt="Preview Length" width="500" height="300"/>
-<img src="images/image2.png" alt="Preview Type" width="500" height="300"/>
-<img src="images/image3.png" alt="Match Score" width="500" height="300"/>
-<img src="images/image4.png" alt="Tile Size" width="500" height="300"/>
-<img src="images/image5.png" alt="Preview Length, Match Score Interaction" width="500" height="300"/>
-<img src="images/image6.png" alt="OLS Regression Results" width="500" height="300"/>
+<table>
+  <tr>
+    <td><img src="images/image1.png" alt="Preview Length" width="300" height="200"/></td>
+    <td><img src="images/image2.png" alt="Preview Type" width="300" height="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/image3.png" alt="Match Score" width="300" height="200"/></td>
+    <td><img src="images/image4.png" alt="Tile Size" width="300" height="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/image5.png" alt="Preview Length, Match Score Interaction" width="300" height="200"/></td>
+    <td><img src="images/image6.png" alt="OLS Regression Results" width="300" height="200"/></td>
+  </tr>
+</table>
 
 ### CCD Trial-I
 Objective: Narrow down the search area and find the slope leading to the optimum.
