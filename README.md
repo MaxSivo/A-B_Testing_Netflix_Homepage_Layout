@@ -34,18 +34,21 @@ Conclusion: Tile Size is insignificant. TT previews should minimize browse times
   </tr>
   <tr>
     <td><img src="images/image5.png" alt="Preview Length, Match Score Interaction" width="300" height="200"/></td>
-    <td><img src="images/image6.png" alt="OLS Regression Results" width="300" height="200"/></td>
+    <td><img src="images/image6.png" alt="OLS Regression Results" width="500" height="300"/></td>
   </tr>
 </table>
 
 ### CCD Trial-I
 Objective: Narrow down the search area and find the slope leading to the optimum.
 
-Plan: Use two Central Composite Design (CCD) Response Surface Methodology (RSM) tests with 9 conditions each, varying Preview Length and Match Score in a 3^2 factorial design.
+Plan: In this trial we expanded our experimental design to include two Central Composite Design (CCD) Response Surface Methodology (RSM) tests with 9 conditions each. The plan was to vary only two factors, Preview Length and Match Score, allowing us to perform a CCD of 3^2 factorial design. The factors and levels tested were Preview Type (TT), Tile Size (0.2) Preview Length (high: 100, low: 50, mean: 75, a value: ±1.4), and Match Score (high: 75, low: 25, mean: 50, a value: ± 1.4). In this case, the “a” value of 1.4 refers to coded units of the form square root of K’. In our case K’=2 and can be simplified to 1.4 which translates to a magnitude of 35 in natural units.
 
-Analysis: The regression model (R-squared = 0.841) indicated an inverse relationship between Browse Time and both Preview Length and Match Score. The theoretical minimum was calculated at (66, 72) for Preview Length and Match Score.
+Analysis: Our regression model with an R-squared of 0.841 highlights a significant inverse relationship between Browse Time and both Preview Length and Match Score, indicating that browse time decreases as these factors increase, up to a point. The model's positive coefficients for the interaction and quadratic terms suggest a nonlinear relationship. The contour plot visualizes this relationship, showing a theoretical minimum at the stationary point, calculated using formula: Xs =  -1/2B^-1*b. This point was found to be at (66, 72) for Preview Length and Match Score. 
 
-Conclusion: Browse Time seems minimized as Preview Length and Match Score move towards (66, 72). Further experiments around this point are necessary to ensure it's not a local minimum.
+<img src="images/image7.png" alt="Countour Plot 1" width="500" height="300"/></td>
+
+Conclusion: Browse Time seems minimized as Preview Length and Match Score move towards (66, 72). Further experiments around this point are necessary to ensure it's not a local minimum. As such, additional experiments targeted closer to the stationary should be run, but not so targeted such that other potential optimum points would be missed. Running trials near the high and low values for Preview Length and Match Score could be discounted as they gave us poor results (longer browse times). 
+
 
 ### CCD Trial-II
 Objective: Get closer to the true optimum.
