@@ -53,9 +53,13 @@ Conclusion: Browse Time seems minimized as Preview Length and Match Score move t
 ### CCD Trial-II
 Objective: Get closer to the true optimum.
 
-Plan: Another 3^2 factorial design (9 conditions) testing Preview Length and Match Score with values adjusted slightly from the traditional CCD design.
+Plan: Another 3^2 factorial design (9 conditions) testing Preview Length and Match Score with values adjusted slightly from the traditional CCD design. The factors and levels tested were Preview Type (TT), Tile Size (0.2) Preview Length (high: 70, low: 60, mean: 65, a value: ±1.4), and Match Score (high: 100, low: 70, mean: 85, a value: -1.4). For match score we deviated slightly from the traditional CCD design by using another value at 95 instead of at a coded value of 1.4 since 100 is the max Match Score. We set 100 as our high as we had a suspicion that higher match scores may result in lower browse times.
 
 Analysis: Similar results to the first CCD test, with the theoretical optimum still at (66, 72). The main effect plot suggested a better local minimum around 75 for Preview Length and 70 for Match Score.
+
+<img src="images/image8.png" alt="Prev_length" width="500" height="300"/></td>
+<img src="images/image9.png" alt="Match_score" width="500" height="300"/></td>
+<img src="images/image10.png" alt="Countour 2" width="500" height="300"/></td>
 
 Conclusion: Browse Time was not optimized with increasing Match Score. Focus on the calculated theoretical minimum of (66, 72) and explore a preview length of 75.
 
@@ -65,5 +69,17 @@ Objective: Zero in on the optimal configuration.
 Plan: Test three different Preview Lengths (70, 75, 80) with two Match Scores (75, 80). Also, test 65 Preview Length with 72 Match Score.
 
 Analysis: Main effect plots indicated 75 for both Match Score and Preview Length led to the lowest browsing time (~10.11 minutes).
+
+<table>
+  <tr>
+    <td><img src="images/image11.png" alt="Prev_length 2" width="500" height="300"/></td>
+    <td><img src="images/image12.png" alt="Match_score 2" width="500" height="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/image13.png" alt="Interaction effect" width="500" height="300"/></td>
+    <td><img src="images/image14.png" alt="Final results" width="500" height="300"/></td>
+  </tr>
+</table>
+
 
 Conclusion: The optimum configuration is [0.2, 75, 75, TT].
